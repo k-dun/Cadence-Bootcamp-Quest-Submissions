@@ -8,6 +8,7 @@
 
 Smart contract:
 
+```
 pub contract HelloWorld {
 
     pub var greeting: String
@@ -28,6 +29,7 @@ pub contract HelloWorld {
 
 }
 
+```
 
 Transaction:
 
