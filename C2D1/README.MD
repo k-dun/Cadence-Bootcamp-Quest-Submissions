@@ -2,6 +2,7 @@
 
 Smart contract:
 
+```cadence
 pub contract JacobTucker {
 
   pub let is: String
@@ -10,11 +11,14 @@ pub contract JacobTucker {
     self.is = "the best"
   }
 }
+```
 
 Script:
 
+```cadence
 import JacobTucker from 0x03
 
 pub fun main(): String {
   return JacobTucker.is
 }
+```
